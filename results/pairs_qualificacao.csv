@@ -1,0 +1,4 @@
+task,A,B,delta_macro_f1(A-B),ci95_low,ci95_high,ic_exclui_zero,mcnemar_p,nota,mcnemar_p_holm
+qualificacao,bertimbau,llm_fewshot_k3:ollama-qwen2.5-7b,0.09484598593257343,-0.029596407605247864,0.2436873991712699,False,0.375,"A só acerta=4, B só acerta=1",1.0
+qualificacao,bertimbau,tfidf_lr,0.0,-0.09349349349349345,0.09041246575609709,False,1.0,"A só acerta=1, B só acerta=1",1.0
+qualificacao,llm_fewshot_k3:ollama-qwen2.5-7b,tfidf_lr,-0.09484598593257343,-0.2566690298673058,0.05858484292839946,False,0.453125,"A só acerta=2, B só acerta=5",1.0

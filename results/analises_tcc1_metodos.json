@@ -1,0 +1,120 @@
+{
+ "q_cm_bertimbau": [
+  [
+   14,
+   1
+  ],
+  [
+   2,
+   16
+  ]
+ ],
+ "q_seedF1_bertimbau": [
+  0.879,
+  0.909,
+  0.909,
+  0.939,
+  0.909
+ ],
+ "q_vote_F1_bertimbau": 0.909,
+ "q_cm_llm_fewshot_k3:ollama-qwen2.5-7b": [
+  [
+   11,
+   4
+  ],
+  [
+   2,
+   16
+  ]
+ ],
+ "q_seedF1_llm_fewshot_k3:ollama-qwen2.5-7b": [
+  0.814
+ ],
+ "q_vote_F1_llm_fewshot_k3:ollama-qwen2.5-7b": 0.814,
+ "q_cm_tfidf_lr": [
+  [
+   14,
+   1
+  ],
+  [
+   2,
+   16
+  ]
+ ],
+ "q_seedF1_tfidf_lr": [
+  0.909
+ ],
+ "q_vote_F1_tfidf_lr": 0.909,
+ "q_tfidf_vs_bert_mesmas_previsoes": 31,
+ "o_agreg_bertimbau": {
+  "cm[com,sem]": [
+   [
+    11,
+    0
+   ],
+   [
+    22,
+    0
+   ]
+  ],
+  "F1": 0.25,
+  "ci": [
+   0.154,
+   0.333
+  ],
+  "acc": 0.333
+ },
+ "o_seedF1_bertimbau": [
+  0.12,
+  0.176,
+  0.21,
+  0.042,
+  0.146
+ ],
+ "o_media_rotulos_previstos_bertimbau": 2.12,
+ "o_agreg_llm_fewshot_k3:ollama-qwen2.5-7b": {
+  "cm[com,sem]": [
+   [
+    11,
+    0
+   ],
+   [
+    16,
+    6
+   ]
+  ],
+  "F1": 0.504,
+  "ci": [
+   0.311,
+   0.667
+  ],
+  "acc": 0.515
+ },
+ "o_seedF1_llm_fewshot_k3:ollama-qwen2.5-7b": [
+  0.638
+ ],
+ "o_media_rotulos_previstos_llm_fewshot_k3:ollama-qwen2.5-7b": 1.06,
+ "o_agreg_tfidf_lr": {
+  "cm[com,sem]": [
+   [
+    6,
+    5
+   ],
+   [
+    10,
+    12
+   ]
+  ],
+  "F1": 0.53,
+  "ci": [
+   0.354,
+   0.688
+  ],
+  "acc": 0.545
+ },
+ "o_seedF1_tfidf_lr": [
+  0.315
+ ],
+ "o_media_rotulos_previstos_tfidf_lr": 0.7,
+ "o_media_rotulos_reais": 0.39
+}

@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+tabulate>=0.9
+pytest>=8.0
+# Experimentos com BERTimbau (GPU recomendada):
+torch>=2.2
+transformers>=4.40
+# LLM via API (instale só o do provedor escolhido):
+anthropic>=0.40
+openai>=1.40
+psycopg2-binary>=2.9   # só para sincronizar com o Supabase

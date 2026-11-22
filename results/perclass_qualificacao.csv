@@ -1,0 +1,7 @@
+task,method,label,precision,recall,f1,support
+qualificacao,bertimbau,qualificado,0.875,0.9333333333333333,0.9032258064516129,15
+qualificacao,bertimbau,nao_qualificado,0.9411764705882353,0.8888888888888888,0.9142857142857143,18
+qualificacao,llm_fewshot_k3:ollama-qwen2.5-7b,qualificado,0.8461538461538461,0.7333333333333333,0.7857142857142857,15
+qualificacao,llm_fewshot_k3:ollama-qwen2.5-7b,nao_qualificado,0.8,0.8888888888888888,0.8421052631578947,18
+qualificacao,tfidf_lr,qualificado,0.875,0.9333333333333333,0.9032258064516129,15
+qualificacao,tfidf_lr,nao_qualificado,0.9411764705882353,0.8888888888888888,0.9142857142857143,18

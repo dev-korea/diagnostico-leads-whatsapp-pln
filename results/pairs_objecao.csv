@@ -1,0 +1,4 @@
+task,A,B,delta_macro_f1(A-B),ci95_low,ci95_high,ic_exclui_zero,mcnemar_p,nota,mcnemar_p_holm
+objecao,bertimbau,llm_fewshot_k3:ollama-qwen2.5-7b,-0.40047619047619043,-0.5552170089905291,-0.1719915736849654,True,2.9802322387695312e-08,menor p (Holm) entre rótulos,8.940696716308594e-08
+objecao,bertimbau,tfidf_lr,-0.07738095238095238,-0.2904814425770308,0.1544424178762413,False,1.52587890625e-05,menor p (Holm) entre rótulos,3.0517578125e-05
+objecao,llm_fewshot_k3:ollama-qwen2.5-7b,tfidf_lr,0.32309523809523805,-0.020020796197266832,0.606459956709956,False,0.03125,menor p (Holm) entre rótulos,0.03125

@@ -1,0 +1,22 @@
+# Dados (conversas reais, banco e planilhas de rotulagem): nunca versionar (LGPD)
+data/
+*.db
+*.sqlite
+
+# Saídas por conversa e logs: contêm IDs pseudonimizados ou trechos de texto
+results/preds_*.csv
+results/log_*.txt
+results/*.zip
+
+# Pacote gerado para o Colab (inclui o banco)
+dist/
+
+# Segredos
+.env
+*.env
+
+# Ambiente e cache
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
